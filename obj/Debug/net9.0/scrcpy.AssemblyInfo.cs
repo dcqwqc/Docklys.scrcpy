@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("scrcpy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc68e46fd635a73d22df929456ad6e703535a15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+931a6029dc3f669389d2b6605cdcaef21932b4c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("scrcpy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("scrcpy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
