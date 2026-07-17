@@ -1,0 +1,40 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="scrcpy.scrcpy">
+    <Border Background="{DynamicResource ColorModuleColor}"
+            Padding="6"
+            Width="350"
+            Height="590"
+            CornerRadius="10">
+        <Grid>
+
+            <!-- Phone screen. Black backdrop so the letterboxed area reads as bezel. -->
+            <Border Grid.Row="0"
+                    Background="Black"
+                    CornerRadius="6"
+                    ClipToBounds="True">
+                <Grid>
+                    <Image Name="Screen"
+                           Stretch="Uniform"
+                           IsHitTestVisible="False"/>
+
+                    <!-- Input surface sits above the image so pointer coordinates resolve
+                         against a known rect regardless of letterboxing. -->
+                    <Border Name="InputSurface"
+                            Background="Transparent"
+                            Focusable="True"/>
+
+                    <TextBlock Name="StatusText"
+                               Text="Starting…"
+                               FontSize="11"
+                               Foreground="{DynamicResource ColorModuleFont}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               TextAlignment="Center"
+                               TextWrapping="Wrap"
+                               Margin="12"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>
