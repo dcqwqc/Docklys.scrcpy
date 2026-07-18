@@ -1,0 +1,12 @@
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/bin/Release/net8.0/Docklys.ModuleContracts.deps.json
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/bin/Release/net8.0/Docklys.ModuleContracts.dll
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/bin/Release/net8.0/Docklys.ModuleContracts.pdb
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.AssemblyInfoInputs.cache
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.AssemblyInfo.cs
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.csproj.CoreCompileInputs.cache
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.sourcelink.json
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.dll
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/refint/Docklys.ModuleContracts.dll
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/Docklys.ModuleContracts.pdb
+/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/Release/net8.0/ref/Docklys.ModuleContracts.dll

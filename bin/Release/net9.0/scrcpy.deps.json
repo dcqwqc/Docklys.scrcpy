@@ -6,11 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "scrcpy/1.0.0": {
+      "scrcpy/1.1.0": {
         "dependencies": {
           "Avalonia": "11.3.18",
           "Avalonia.Desktop": "11.3.18",
-          "Docklys.ModuleContracts": "1.0.1"
+          "Docklys.ModuleContracts": "1.1.0"
         },
         "runtime": {
           "scrcpy.dll": {}
@@ -366,21 +366,18 @@
           }
         }
       },
-      "Docklys.ModuleContracts/1.0.1": {
-        "dependencies": {
-          "Avalonia": "11.3.18"
-        },
+      "Docklys.ModuleContracts/1.1.0": {
         "runtime": {
           "Docklys.ModuleContracts.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "scrcpy/1.0.0": {
+    "scrcpy/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -518,7 +515,7 @@
       "path": "tmds.dbus.protocol/0.21.3",
       "hashPath": "tmds.dbus.protocol.0.21.3.nupkg.sha512"
     },
-    "Docklys.ModuleContracts/1.0.1": {
+    "Docklys.ModuleContracts/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

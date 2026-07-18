@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vW89bDWM3xQ=",
+  "success": true,
+  "projectFilePath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj",
+  "expectedPackageFiles": [
+    "/home/qwqc/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.28/microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "/home/qwqc/.nuget/packages/microsoft.netcore.app.ref/8.0.28/microsoft.netcore.app.ref.8.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

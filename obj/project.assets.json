@@ -500,12 +500,9 @@
           "lib/net8.0/Tmds.DBus.Protocol.dll": {}
         }
       },
-      "Docklys.ModuleContracts/1.0.1": {
+      "Docklys.ModuleContracts/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Avalonia": "11.3.18"
-        },
         "compile": {
           "bin/placeholder/Docklys.ModuleContracts.dll": {}
         },
@@ -1246,24 +1243,24 @@
         "tmds.dbus.protocol.nuspec"
       ]
     },
-    "Docklys.ModuleContracts/1.0.1": {
+    "Docklys.ModuleContracts/1.1.0": {
       "type": "project",
-      "path": "../Docklys.ModuleContracts/Docklys.ModuleContracts.csproj",
-      "msbuildProject": "../Docklys.ModuleContracts/Docklys.ModuleContracts.csproj"
+      "path": "Contracts/Docklys.ModuleContracts.csproj",
+      "msbuildProject": "Contracts/Docklys.ModuleContracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Avalonia >= 11.3.18",
       "Avalonia.Desktop >= 11.3.18",
-      "Docklys.ModuleContracts >= 1.0.1"
+      "Docklys.ModuleContracts >= 1.1.0"
     ]
   },
   "packageFolders": {
     "/home/qwqc/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
       "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj",
       "projectName": "scrcpy",
@@ -1285,8 +1282,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj": {
-              "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj"
+            "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj": {
+              "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj"
             }
           }
         }

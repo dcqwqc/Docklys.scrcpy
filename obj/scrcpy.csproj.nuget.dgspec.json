@@ -4,14 +4,14 @@
     "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj": {}
   },
   "projects": {
-    "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj": {
-      "version": "1.0.1",
+    "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj": {
+      "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj",
+        "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj",
         "projectName": "Docklys.ModuleContracts",
-        "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj",
+        "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj",
         "packagesPath": "/home/qwqc/.nuget/packages/",
-        "outputPath": "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/obj/",
+        "outputPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/qwqc/.nuget/NuGet/NuGet.Config"
@@ -48,12 +48,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Avalonia": {
-              "target": "Package",
-              "version": "[11.3.18, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -85,7 +79,7 @@
       }
     },
     "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj",
         "projectName": "scrcpy",
@@ -107,8 +101,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj": {
-                "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/Docklys.ModuleContracts/Docklys.ModuleContracts.csproj"
+              "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj": {
+                "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj"
               }
             }
           }
