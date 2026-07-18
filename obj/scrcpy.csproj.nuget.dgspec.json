@@ -31,13 +31,17 @@
         },
         "warningProperties": {
           "warnAsError": [
-            "NU1605"
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903",
+            "NU1904"
           ]
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "10.0.100"
       },
@@ -47,7 +51,7 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.3.1, )"
+              "version": "[11.3.18, )"
             }
           },
           "imports": [
@@ -111,13 +115,17 @@
         },
         "warningProperties": {
           "warnAsError": [
-            "NU1605"
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903",
+            "NU1904"
           ]
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "10.0.100"
       },
@@ -127,11 +135,11 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.3.1, )"
+              "version": "[11.3.18, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[11.3.1, )"
+              "version": "[11.3.18, )"
             }
           },
           "imports": [
