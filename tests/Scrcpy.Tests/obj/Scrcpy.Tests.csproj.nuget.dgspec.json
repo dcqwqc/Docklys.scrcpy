@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/tests/Scrcpy.Tests/Scrcpy.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj",
+        "projectName": "Docklys.ModuleContracts",
+        "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj",
+        "packagesPath": "/home/qwqc/.nuget/packages/",
+        "outputPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/qwqc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903",
+            "NU1904"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj",
+        "projectName": "scrcpy",
+        "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj",
+        "packagesPath": "/home/qwqc/.nuget/packages/",
+        "outputPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/qwqc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj": {
+                "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/Contracts/Docklys.ModuleContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903",
+            "NU1904"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.18, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/tests/Scrcpy.Tests/Scrcpy.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/tests/Scrcpy.Tests/Scrcpy.Tests.csproj",
+        "projectName": "Scrcpy.Tests",
+        "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/tests/Scrcpy.Tests/Scrcpy.Tests.csproj",
+        "packagesPath": "/home/qwqc/.nuget/packages/",
+        "outputPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/tests/Scrcpy.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/qwqc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj": {
+                "projectPath": "/home/qwqc/Projects/Docklys/DocklysEditor/scrcpy/scrcpy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903",
+            "NU1904"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

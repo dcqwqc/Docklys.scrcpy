@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Docklys.ModuleContracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.0+9c1c4540d574b3d24b86eb9dbca354c67d2beea6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.0+3218240f1d93e794040b6ef5c2a1efb84cc093b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Docklys.ModuleContracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Docklys.ModuleContracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.0.0")]
